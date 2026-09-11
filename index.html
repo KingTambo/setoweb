@@ -97,7 +97,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <link rel='stylesheet' id='widget-icon-box-css' href='/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=4.2.4' media='all' />
 <link rel='stylesheet' id='widget-loop-common-css' href='/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css?ver=4.2.3' media='all' />
 <link rel='stylesheet' id='widget-loop-carousel-css' href='/wp-content/plugins/elementor-pro/assets/css/widget-loop-carousel.min.css?ver=4.2.3' media='all' />
-<link rel='stylesheet' id='elementor-post-2-css' href='/wp-content/uploads/elementor/css/post-2.css?ver=1789002009' media='all' />
+<link rel='stylesheet' id='elementor-post-2-css' href='/wp-content/uploads/elementor/css/post-2.css?ver=1789002010' media='all' />
 <link rel='stylesheet' id='elementor-post-18-css' href='/wp-content/uploads/elementor/css/post-18.css?ver=1789002007' media='all' />
 <link rel='stylesheet' id='elementor-post-26-css' href='/wp-content/uploads/elementor/css/post-26.css?ver=1789002007' media='all' />
 <link rel='stylesheet' id='elementor-post-781-css' href='/wp-content/uploads/elementor/css/post-781.css?ver=1789002007' media='all' />
@@ -139,6 +139,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
 						background-image: none !important;
 					}
+				}
+			</style>
+			<style id="setoweb-sections-css">
+				.setoweb-process{counter-reset:setoweb-step;list-style:none;padding:0;margin:40px auto 0;max-width:760px;}
+				.setoweb-process li{position:relative;padding:0 0 32px 56px;margin-left:20px;border-left:2px solid #D8C292;}
+				.setoweb-process li:last-child{border-left-color:transparent;padding-bottom:0;}
+				.setoweb-process li::before{counter-increment:setoweb-step;content:counter(setoweb-step);position:absolute;left:-21px;top:0;width:40px;height:40px;border-radius:50%;background:#F4EDDF;color:#222222;font-family:"Epilogue",Sans-serif;font-size:18px;font-weight:600;line-height:40px;text-align:center;}
+				.setoweb-process li strong{display:block;font-family:"Epilogue",Sans-serif;font-size:22px;font-weight:600;color:#222222;margin-bottom:6px;}
+				.setoweb-process li p{margin:0;font-family:"Epilogue",Sans-serif;font-size:16px;font-weight:400;line-height:1.5;color:#222222;}
+				.setoweb-faq{width:100%;max-width:760px;margin:24px auto 0;display:flex;flex-direction:column;gap:12px;}
+				.setoweb-faq-item{border:1px solid #EEEEEE;border-radius:16px;background:#FFFFFF;overflow:hidden;transition:border-color .2s ease,box-shadow .2s ease;}
+				.setoweb-faq-item[open]{border-color:#D8C292;box-shadow:0 4px 16px rgba(0,0,0,.04);}
+				.setoweb-faq-item summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 20px;font-family:"Epilogue",Sans-serif;font-size:18px;font-weight:600;line-height:1.4;color:#222222;cursor:pointer;}
+				.setoweb-faq-item summary::-webkit-details-marker{display:none;}
+				.setoweb-faq-item summary::marker{content:"";}
+				.setoweb-faq-item summary::after{content:"+";flex-shrink:0;width:28px;height:28px;border-radius:50%;background:#F4EDDF;color:#222222;font-family:"Epilogue",Sans-serif;font-size:20px;font-weight:600;line-height:28px;text-align:center;}
+				.setoweb-faq-item[open] summary::after{content:"−";background:#D8C292;}
+				.setoweb-faq-item summary:hover::after{background:#D8C292;}
+				.setoweb-faq-item p{margin:0;padding:0 20px 18px;font-family:"Epilogue",Sans-serif;font-size:16px;font-weight:400;line-height:1.5;color:#222222;}
+				@media(max-width:767px){
+					.setoweb-process li{padding-left:48px;margin-left:16px;}
+					.setoweb-process li::before{width:34px;height:34px;line-height:34px;font-size:16px;left:-18px;}
+					.setoweb-faq-item summary{font-size:16px;padding:16px;}
+					.setoweb-faq-item p{font-size:15px;padding:0 16px 16px;}
 				}
 			</style>
 			<link rel="icon" href="/wp-content/uploads/favicon-2.svg" sizes="32x32" />
@@ -240,11 +264,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-element elementor-element-188883f elementor-headline--style-highlight elementor-widget elementor-widget-animated-headline" data-id="188883f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;marker&quot;:&quot;strikethrough&quot;,&quot;highlighted_text&quot;:&quot;b\u00e2timent&quot;,&quot;headline_style&quot;:&quot;highlight&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;highlight_animation_duration&quot;:1200,&quot;highlight_iteration_delay&quot;:8000}" data-widget_type="animated-headline.default">
 				<div class="elementor-widget-container">
 							<h1 class="elementor-headline">
-					<span class="elementor-headline-plain-text elementor-headline-text-wrapper">Artisans du </span>
-				<span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper">
-					<span class="elementor-headline-dynamic-text elementor-headline-text-active">bâtiment</span>
-				</span>
-				<span class="elementor-headline-plain-text elementor-headline-text-wrapper"><br />un site qui remplit votre planning</span>
+					<span class="elementor-headline-plain-text elementor-headline-text-wrapper">Des artisans du bâtiment<br />qui remplissent leur planning<br />grâce à un site qui travaille pour eux</span>
 				</h1>
 						</div>
 				</div>
@@ -276,7 +296,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-preuve0 e-flex e-con-boxed e-con e-parent" data-id="preuve0" data-element_type="container" data-e-type="container" id="preuve-expertise" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-preuve0 e-flex e-con-boxed e-con e-parent" data-id="preuve0" data-element_type="container" data-e-type="container" id="preuve-expertise" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-preuve1 e-flex e-con-boxed e-con e-child" data-id="preuve1" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
 					<div class="e-con-inner">
@@ -338,7 +358,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-prob000 e-flex e-con-boxed e-con e-parent" data-id="prob000" data-element_type="container" data-e-type="container" id="probleme-enjeux" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-prob000 e-flex e-con-boxed e-con e-parent" data-id="prob000" data-element_type="container" data-e-type="container" id="probleme-enjeux" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-prob010 e-flex e-con-boxed e-con e-child" data-id="prob010" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
 					<div class="e-con-inner">
@@ -699,7 +719,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-meth000 e-flex e-con-boxed e-con e-parent" data-id="meth000" data-element_type="container" data-e-type="container" id="methode-process" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-meth000 e-flex e-con-boxed e-con e-parent" data-id="meth000" data-element_type="container" data-e-type="container" id="methode-process" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-meth010 e-flex e-con-boxed e-con e-child" data-id="meth010" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
 					<div class="e-con-inner">
@@ -729,7 +749,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-faq000 e-flex e-con-boxed e-con e-parent" data-id="faq000" data-element_type="container" data-e-type="container" id="faq" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-faq000 e-flex e-con-boxed e-con e-parent" data-id="faq000" data-element_type="container" data-e-type="container" id="faq" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-faq010 e-flex e-con-boxed e-con e-child" data-id="faq010" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
 					<div class="e-con-inner">
@@ -741,7 +761,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="elementor-widget-container">
 									<div class="setoweb-faq">
 					<details class="setoweb-faq-item"><summary>Combien coûte un site internet ?</summary><p>Ça dépend de vos besoins (site vitrine, e-commerce, référencement inclus ou non). Le devis est gratuit et sans engagement : on vous donne un prix clair après notre échange, jamais avant.</p></details>
-					<details class="setoweb-faq-item"><summary>Combien de temps ça prend ?</summary><p>En général entre 2 et 4 semaines selon la complexité du site et la rapidité avec laquelle vous nous transmettez vos contenus (photos, textes).</p></details>
+					<details class="setoweb-faq-item"><summary>Combien de temps ça prend ?</summary><p>Pour le devis et le premier contact, comptez une réponse sous 24h. Pour la création et la mise en ligne du site, en général entre 2 et 7 jours selon la complexité du site et la rapidité avec laquelle vous nous transmettez vos contenus (photos, textes).</p></details>
 					<details class="setoweb-faq-item"><summary>Je n'y connais rien en informatique, comment je gère mon site après ?</summary><p>Vous n'avez rien à gérer techniquement. On reste disponible pour les modifications et le suivi. Si vous préférez être autonome, on peut aussi vous former.</p></details>
 					<details class="setoweb-faq-item"><summary>Je n'ai pas de photos ou de textes à fournir, c'est un problème ?</summary><p>Non. On peut travailler avec ce que vous avez, vous orienter sur les photos à prendre, ou rédiger les textes avec vous par téléphone.</p></details>
 					<details class="setoweb-faq-item"><summary>Vous travaillez avec mon métier précis (paysagiste, chauffagiste, couvreur...) ?</summary><p>Oui. SetoWeb est spécialisé sur l'ensemble des métiers du bâtiment et de l'habitat, pas uniquement sur un corps de métier.</p></details>

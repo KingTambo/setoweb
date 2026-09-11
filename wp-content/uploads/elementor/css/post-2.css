@@ -37,15 +37,17 @@ transition-timing-function: linear !important;
 }/* End custom CSS */
 
 /* SetoWeb new sections */
-.elementor-2 .elementor-element.elementor-element-188883f .elementor-headline{font-size:62px;line-height:76px;letter-spacing:-2px;}
+.elementor-2 .elementor-element.elementor-element-188883f .elementor-headline{font-size:52px;line-height:64px;letter-spacing:-2px;}
 .elementor-2 .elementor-element.elementor-element-hero001{text-align:center;font-family:"Epilogue",Sans-serif;font-size:18px;font-weight:400;line-height:1.5;color:#222222;}
 .elementor-2 .elementor-element.elementor-element-hero001 > .elementor-widget-container{max-width:760px;margin:10px auto 0;padding:0 20px;}
-.elementor-2 .elementor-element.elementor-element-preuve0{--margin-top:40px;--margin-bottom:40px;}
+.elementor-2 .elementor-element.elementor-element-preuve0{--margin-top:0;--margin-bottom:0;--padding-top:60px;--padding-bottom:60px;}
+.elementor-2 .elementor-element.elementor-element-preuve0:not(.elementor-motion-effects-element-type-background), .elementor-2 .elementor-element.elementor-element-preuve0 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}
 .elementor-2 .elementor-element.elementor-element-preuve1{--justify-content:center;--align-items:center;--gap:12px 0px;--row-gap:12px;--column-gap:0px;}
 .elementor-2 .elementor-element.elementor-element-preuve2 .elementor-heading-title{font-family:"Epilogue",Sans-serif;font-size:40px;font-weight:600;line-height:1.2;letter-spacing:-1px;text-align:center;color:#222222;}
 .elementor-2 .elementor-element.elementor-element-preuve3{text-align:center;font-family:"Epilogue",Sans-serif;font-size:16px;font-weight:400;color:#222222;}
 .elementor-2 .elementor-element.elementor-element-preuve4{text-align:center;font-family:"Epilogue",Sans-serif;font-size:16px;font-weight:400;color:#222222;}
-.elementor-2 .elementor-element.elementor-element-prob000{--margin-top:40px;--margin-bottom:40px;}
+.elementor-2 .elementor-element.elementor-element-prob000{--margin-top:0;--margin-bottom:0;--padding-top:60px;--padding-bottom:60px;}
+.elementor-2 .elementor-element.elementor-element-prob000:not(.elementor-motion-effects-element-type-background), .elementor-2 .elementor-element.elementor-element-prob000 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F4EDDF;}
 .elementor-2 .elementor-element.elementor-element-prob010{--justify-content:center;--align-items:center;--gap:12px 0px;--row-gap:12px;--column-gap:0px;}
 .elementor-2 .elementor-element.elementor-element-prob011 .elementor-heading-title{font-family:"Epilogue",Sans-serif;font-size:40px;font-weight:600;line-height:1.2;letter-spacing:-1px;text-align:center;color:#222222;}
 .elementor-2 .elementor-element.elementor-element-prob012{text-align:center;font-family:"Epilogue",Sans-serif;font-size:16px;font-weight:400;color:#222222;}
@@ -78,7 +80,8 @@ transition-timing-function: linear !important;
 .elementor-2 .elementor-element.elementor-element-prob002 .elementor-icon-box-description,
 .elementor-2 .elementor-element.elementor-element-prob003 .elementor-icon-box-description,
 .elementor-2 .elementor-element.elementor-element-prob004 .elementor-icon-box-description{font-family:"Epilogue",Sans-serif;font-size:16px;font-weight:400;line-height:1.5;color:#222222;margin:0;}
-.elementor-2 .elementor-element.elementor-element-meth000{--margin-top:60px;--margin-bottom:60px;}
+.elementor-2 .elementor-element.elementor-element-meth000{--margin-top:0;--margin-bottom:0;--padding-top:60px;--padding-bottom:60px;}
+.elementor-2 .elementor-element.elementor-element-meth000:not(.elementor-motion-effects-element-type-background), .elementor-2 .elementor-element.elementor-element-meth000 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}
 .elementor-2 .elementor-element.elementor-element-meth010{--justify-content:center;--align-items:center;--gap:12px 0px;--row-gap:12px;--column-gap:0px;}
 .elementor-2 .elementor-element.elementor-element-meth011 .elementor-heading-title{font-family:"Epilogue",Sans-serif;font-size:40px;font-weight:600;letter-spacing:-1px;text-align:center;color:#222222;}
 .elementor-2 .elementor-element.elementor-element-meth012{text-align:center;font-family:"Epilogue",Sans-serif;font-size:16px;font-weight:400;color:#222222;}
@@ -89,7 +92,8 @@ transition-timing-function: linear !important;
 .setoweb-process li::before{counter-increment:setoweb-step;content:counter(setoweb-step);position:absolute;left:-21px;top:0;width:40px;height:40px;border-radius:50%;background:#F4EDDF;color:#222222;font-family:"Epilogue",Sans-serif;font-size:18px;font-weight:600;line-height:40px;text-align:center;}
 .setoweb-process li strong{display:block;font-family:"Epilogue",Sans-serif;font-size:22px;font-weight:600;color:#222222;margin-bottom:6px;}
 .setoweb-process li p{margin:0;font-family:"Epilogue",Sans-serif;font-size:16px;font-weight:400;line-height:1.5;color:#222222;}
-.elementor-2 .elementor-element.elementor-element-faq000{--margin-top:60px;--margin-bottom:80px;}
+.elementor-2 .elementor-element.elementor-element-faq000{--margin-top:0;--margin-bottom:0;--padding-top:60px;--padding-bottom:80px;}
+.elementor-2 .elementor-element.elementor-element-faq000:not(.elementor-motion-effects-element-type-background), .elementor-2 .elementor-element.elementor-element-faq000 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F4EDDF;}
 .elementor-2 .elementor-element.elementor-element-faq010{--justify-content:center;--align-items:center;--gap:12px 0px;--row-gap:12px;--column-gap:0px;}
 .elementor-2 .elementor-element.elementor-element-faq011 .elementor-heading-title{font-family:"Epilogue",Sans-serif;font-size:40px;font-weight:600;letter-spacing:-1px;text-align:center;color:#222222;}
 .elementor-2 .elementor-element.elementor-element-faq012{width:100%;}
@@ -104,7 +108,7 @@ transition-timing-function: linear !important;
 .setoweb-faq-item summary:hover::after{background:#D8C292;}
 .setoweb-faq-item p{margin:0;padding:0 20px 18px;font-family:"Epilogue",Sans-serif;font-size:16px;font-weight:400;line-height:1.5;color:#222222;}
 @media(max-width:767px){
-.elementor-2 .elementor-element.elementor-element-188883f .elementor-headline{font-size:38px;line-height:48px;}
+.elementor-2 .elementor-element.elementor-element-188883f .elementor-headline{font-size:34px;line-height:44px;}
 .elementor-2 .elementor-element.elementor-element-preuve2 .elementor-heading-title,
 .elementor-2 .elementor-element.elementor-element-prob011 .elementor-heading-title,
 .elementor-2 .elementor-element.elementor-element-meth011 .elementor-heading-title{font-size:32px;}
